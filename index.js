@@ -454,7 +454,7 @@ switch (command) {
  
  case 'menu': 
  case 'help':
-    capt = `────  *DyLux  ┃ ᴮᴼᵀ*  ────
+    capt = `────  *IsakBot  ┃ ᴮᴼᵀ*  ────
     
 ${msg.hi} *${pushname}* ${ucapanWaktu}
     
@@ -462,7 +462,7 @@ ${msg.hi} *${pushname}* ${ucapanWaktu}
 ⎔ *Premium* : ${prem}
 
 ▢ ${msg.cretb}
-• https://youtu.be/F4lGWb1WXgM 
+• https://www.youtube.com/channel/UClRpwBGGUibW16r6txcl2rQ 
 
 ${readMore}
 ${menu(prefix)} 
@@ -489,13 +489,13 @@ ${menuVC}
     case 'groups': 
     case 'dylux': 
     gps = `
-≡  *DyLux  ┃ ᴮᴼᵀ*  GRUPOS
+≡  *IsakBot  ┃ ᴮᴼᵀ*  GRUPOS
 
 ▢ ${msg.gp} 1
-https://instabio.cc/fg98ff
+https://www.instagram.com/isaac_lmz
 
 ▢ *YouTube*
-• https://www.youtube.com/fg98f
+• https://www.youtube.com/channel/UClRpwBGGUibW16r6txcl2rQ
 `
 m.reply(gps)
 break 
@@ -538,23 +538,23 @@ case 'lang':
 case 'creator':
 case 'creador': 
 case 'developer':
-   //Fg.sendContact(from, '5493885839638', 'FG98', mek) 
+   //Fg.sendContact(from, '12052897611', 'Isaac', mek) 
    m.reply(`
 *≡ OWNER*
 
 ▢ Instagram :
-  • https://instagram.com/fg98._
+  • https://www.instagram.com/isaac_lmz
 ▢ WhatsApp : 
-  • wa.me/
+  • wa.me/12052897611
 ▢ Telegram : 
-  • t.me/fgsupp_bot 
-  • t.me/fg98ff (canal)
-  • t.me/fgawgp (grupo)
+  • t.me/
+  • t.me/ (canal)
+  • t.me/ (grupo)
 ▢ Facebook : 
-  • https://facebook.com/fg98ff/
-  • https://facebook.com/fg98A/
+  • https://facebook.com/isaac.lms/
+  • https://facebook.com/isaac.lms/
 ▢ YouTube : 
-  • https://youtube.com/fg98f
+  • https://https://www.youtube.com/channel/UClRpwBGGUibW16r6txcl2rQ
 `)
     break
     
@@ -586,13 +586,13 @@ case 'developer':
 ▢ Versi Wa : ${Fg.user.phone.wa_version}
 
 *≡ OWNER*
-▢ Instagram : https://www.instagram.com/fg98._
-▢ WhatsApp : wa.me/
+▢ Instagram : https://www.instagram.com/isaac_lmz/
+▢ WhatsApp : wa.me/12052897611
 
 *≡ SCRIPT*
 ▢ Git : ${package.homepage} 
 ` 
-Fg.send2Button(from, teks, '*_© FG98 DyLux_*', `ꨄ︎ Apoyar`, `${prefix}donate`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
+Fg.send2Button(from, teks, '*_© Isaac IsakBot*', `ꨄ︎ Apoyar`, `${prefix}donate`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
    break
    
     case 'nameninja':
